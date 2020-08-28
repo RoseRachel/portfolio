@@ -1,0 +1,140 @@
+header{
+background-color: #111;
+font-color: black;
+}
+header nav ul{
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+header nav li{
+  list-style: none;
+  float: left;
+}
+header nav ul li a{
+  
+  padding: 20px;
+  float:left;
+  font-size:20px;
+  text-decoration: none;}
+  header nav ul li a:hover{
+color:cyan;
+}
+header nav ul li a:active {
+  color: yellow;
+}
+header nav ul{
+  padding:0;
+  margin:0;
+}
+
+body{
+  background-image : url("https://i.postimg.cc/pr0ZnPRt/music.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*start header*/
+header{
+background-color: white;
+color: black;
+}
+header nav ul{
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+header nav li{
+  list-style: none;
+  float: left;
+}
+header nav ul li a{
+ 
+  padding: 20px;
+  float:left;
+  font-size:20px;
+  text-decoration: none;
+}
+
+header nav ul li a:hover{
+color:grey;
+}
+header nav ul li a:active {
+  color: yellow;
+}
+header nav ul{
+  padding:0;
+  margin:0;
+}
+
+div{
+  text-align: center;
+  vertical-align: sub;
+}
+
+/*.h2{
+  position: absolute;
+  top: 150px;
+  left: 300px;
+  width: 400px;
+  height: 200px;}*/
+ .links{
+color: black;
+ } 
+  
+}
+h2{
+ color: black; 
+ text-align: center;
+}
+.myself{
+  position: absolute;
+   left: 600px;
+   bottom: 100px;
+   top: 100px;
+   height:100px;
+   border-width: 2px; 
+  height: 200px;
+  width: 50%;
+}
+.image{
+ 
+  padding-right: 1000px;
+  padding-top: 50px;
+ 
+}
+.foot{
+  margin-top: 50px;
+  
+ 
+}
+footer{
+  font-size: 20px;
+  text-align: center;
+  padding: 50px 0;
+  
+  background-color: 0,0,0,0.5;
+}
+img{
+   height:400px;
+  width: 400px;
+  margin-left: 40px;
+}
+*{
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
